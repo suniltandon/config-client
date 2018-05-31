@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configclientservice
+  cloud:
+    config:
+      uri: http://localhost:8888
+  profiles:
+    active: development
+server:
+  port: 8888
